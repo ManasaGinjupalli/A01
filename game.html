@@ -1,4 +1,18 @@
-<!doctype html>
+<!DOCTYPE html>
+<html lang="en">
+  <title>TicTacToe</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<head> 
+<title>tic tac toe</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+<link rel="stylesheet" href="manasa.css">
+<link rel="stylesheet" href="./game.css">
+
+ </head>
+<!-- <!doctype html>
 <html>
 
 <head>
@@ -8,9 +22,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="./game.css">
 
-</head>
+</head> -->
 
 <body>
+    <div class="topnav">
+				<a class="active" href="index.html">Welcome</a>
+				<a href="game.html">Game</a>
+				<a href="contact.html">Contact</a>
+					</div>
   <header>
     <h1>Tic Tac Toe</h1>
   </header>
@@ -26,6 +45,16 @@
     <section id="lower-left"> </section>
     <section id="lower-mid"> </section>
     <section id="lower-right"> </section>
+
+    <br>
+    <button onclick="myFunction()">clear all</button>
+
+<script>
+function myFunction() {
+    location.reload();
+}
+</script>
+
   </main>
   <aside>
     <h1>Specification</h1>
